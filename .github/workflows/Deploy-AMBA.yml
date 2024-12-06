@@ -9,7 +9,7 @@ permissions:
 
 env:
   Location: "norwayeast"
-  ManagementGroupPrefix: "alz"
+  ManagementGroupPrefix: "charles-demo"
 
 jobs:
   deploy_job:
