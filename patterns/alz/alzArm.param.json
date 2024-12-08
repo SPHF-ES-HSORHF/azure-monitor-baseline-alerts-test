@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "demo-charles"
+      "value": "demo-root"
     },
     "platformManagementGroup": {
       "value": "platform"
     },
     "IdentityManagementGroup": {
-      "value": "identity"
+      "value": "platform-identity"
     },
     "managementManagementGroup": {
-      "value": "management"
+      "value": "platform-management"
     },
     "connectivityManagementGroup": {
-      "value": "connectivity"
+      "value": "platform-connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "landingzones"
+      "value": "landing-zones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -39,7 +39,7 @@
       "value": "Yes"
     },
     "enableAMBAKeyManagement": {
-      "value": "No"
+      "value": "Yes"
     },
     "enableAMBALoadBalancing": {
       "value": "Yes"
