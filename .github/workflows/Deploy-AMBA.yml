@@ -36,7 +36,7 @@ jobs:
 
       - name: Check Role Assignments
         run: |
-          az role assignment list --assignee a68a7a78-da65-45f8-a416-edf62baa0a51 --scope /providers/Microsoft.Management/managementGroups/demo-charles --all
+          az role assignment list --assignee a68a7a78-da65-45f8-a416-edf62baa0a51 --all
 
       - name: Validate ARM Template
         run: |
